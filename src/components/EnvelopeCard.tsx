@@ -145,17 +145,9 @@ export const EnvelopeCard: React.FC<EnvelopeCardProps> = ({ triggerConfetti }) =
               </div>
 
               {/* Main Line: "عيد ميلاد سعيد مصطفى خيري" */}
-              <h1 className="font-reem text-3xl sm:text-4xl md:text-5xl font-bold text-gold-emboss leading-tight tracking-wide text-balance">
+              <h1 className="font-reem text-3xl sm:text-4xl md:text-5xl font-bold text-gold-emboss leading-relaxed tracking-wide text-balance py-2">
                 عيد ميلاد سعيد مصطفى خيري
               </h1>
-
-              {/* Sophisticated Metallic Gold Divider */}
-              <div className="w-28 h-[1.5px] bg-gradient-to-r from-transparent via-[#d4af37] to-transparent my-4 opacity-85" />
-
-              {/* Sender Line: "من صديقك محمد مصطفى" (NO extra fluff or clichés) */}
-              <p className="font-amiri text-xl sm:text-2xl text-slate-100 font-bold tracking-wide drop-shadow-[0_2px_4px_rgba(0,0,0,0.8)]">
-                من صديقك محمد مصطفى
-              </p>
             </div>
           </div>
         </div>
